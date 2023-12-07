@@ -1,0 +1,47 @@
+.c-dialog .MuiPaper-root{  
+  min-width: 35em;  
+  min-height: 18em;
+  background-color: var(--color-hot);
+  color: var(--typeface-color);  
+  letter-spacing: 0.05em;
+}
+
+.c-dialog__text {
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.2em;
+  font-weight: 300;  
+  letter-spacing: inherit;
+}
+
+.c-dialog__text--title {
+  font-size: 2em;
+  font-weight: 600;    
+  letter-spacing: inherit;
+}
+
+.c-dialog__button {
+  font-family: inherit;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1.4em;  
+  letter-spacing: 0.12em;
+  min-width: 8.5em;
+}
+
+.c-dialog__button--primary {
+  color: var(--color-hot);
+  font-weight: 800;
+  background-color: var(--typeface-color);
+}
+
+.c-dialog__button--primary:hover {
+  color: var(--color-hot);  
+  background-color: var(--typeface-color);
+}
+
+.c-dialog__button--secondary{  
+  background-color: transparent;  
+  border: 1px solid white
+}
+

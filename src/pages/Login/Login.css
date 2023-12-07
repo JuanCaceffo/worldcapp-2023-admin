@@ -1,0 +1,18 @@
+.login-footer {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  min-height: 4em;  
+}
+
+.login-footer__icon{
+  color: var(--color-primary);
+  font-size: 1.4em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.login-form__actions {
+  font-size: 1.3em;  
+  width: 80%;  
+}

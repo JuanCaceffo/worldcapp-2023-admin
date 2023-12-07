@@ -1,0 +1,29 @@
+.display-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5em;
+  height: 100vh;
+  text-align: center;
+  padding: 1.5em;
+  font-family: var(--typeface-primary);
+}
+
+.display-error__image {
+  min-height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.display-error__button{
+  background-color: var(--color-primary);
+  color: var(--color-clear);
+  margin: 0 auto;
+  width: 60%;  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.display-error__button:hover{
+  background-color: var(--color-secondary);
+}

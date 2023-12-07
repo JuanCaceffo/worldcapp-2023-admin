@@ -1,0 +1,30 @@
+.layout__header {
+  width: 100vw;
+  max-width: var(--maxWidth);
+  height: 6rem;
+  box-shadow: var(--box-shadow);
+  background-image: var(--gradient-primary);
+}
+
+.layout__header-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding: 0 2rem;
+  line-height: 6rem;
+  font-family: var(--typeface-primary);
+  color: var(--typeface-color);
+}
+
+.layout__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: var(--maxWidth);
+  height: 6rem;
+  font-size: 2rem;
+  background-color: var(--color-secondary);
+  position: fixed;
+  bottom: 0;
+}

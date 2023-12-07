@@ -1,0 +1,51 @@
+.button {
+  display: flex;
+  background-color: var(--color-tertiary);
+}
+
+.button--primary {
+  font-size: 1.4em;
+  font-family: var(--primary-font);
+  background-color: var(--color-primary);  
+  height: 5.3rem;
+  letter-spacing: 0.2em;
+}
+
+.button--login {  
+  height: 4em;
+  margin-top: 2em;  
+}
+
+.button--halfwidth{  
+  min-width: 45%;  
+}
+
+.button--outlined{
+  background-color: var(--color-clear);
+  font-weight: 600;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary)
+}
+
+.button--icon {
+  color: white;
+}
+
+.button--icon-large {
+  font-size: 3.5rem;
+  width: 7rem;
+}
+
+.button--circle {
+  border-radius: 50%;
+}
+
+.button--float {
+  position: sticky;
+  bottom: 10rem;
+  margin-left: 90%;
+}
+
+.button--icon:hover {
+  background-color: var(--color-tertiary);
+}

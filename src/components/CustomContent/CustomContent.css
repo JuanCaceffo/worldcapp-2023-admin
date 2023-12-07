@@ -1,0 +1,47 @@
+.card-content {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-content__section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  flex: 1 1 calc(50% - 0.3em);
+}
+
+.card-content--wrap {
+  flex-wrap: wrap;
+  row-gap: 0.5em;
+}
+
+.card-content__section--fullwidth{  
+  flex: 1 1 100%;      
+}
+
+.card-content__section--3column{  
+  flex: 1 1 30%;      
+}
+
+.card-content__text {
+  font-size: 2em;
+  margin-left: 0.3em;
+}
+
+.card-content__text--title {
+  text-transform: capitalize;
+}
+
+.card-content__text--pipe {
+  font-size: 2em;
+  height: 1.2em;
+  width: 2px;
+  background-color: var(--text-color-2lighter);
+}
+
+.card-content__icon {
+  font-size: 1.6em;
+}

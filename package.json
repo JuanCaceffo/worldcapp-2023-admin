@@ -14,10 +14,13 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.16",
+    "@mui/icons-material": "^5.14.18",
     "@mui/material": "^5.14.17",
+    "axios": "^1.6.1",
+    "notistack": "^3.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
@@ -33,7 +36,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "jsdom": "^22.1.0",
-    "prettier": "^3.0.3",
+    "prettier": "^2.8.8",
+    "prettier-eslint": "^15.0.1",
     "vite": "^4.4.5",
     "vitest": "^0.34.6"
   }

@@ -1,0 +1,63 @@
+.field {
+  font-family: var(--typeface-primary);
+  width: 100%;
+  box-shadow: var(--box-shadow);
+}
+
+.field__label {
+  font-size: inherit;
+  font-weight: 400;  
+  margin-top: 0.8em;
+}
+
+.checkbox * {
+  font-family: var(--typeface-primary);
+  font-size: 1.4em;
+}
+
+.checkbox.MuiFormControlLabel-root {
+  width: 100%;  
+  margin: 0;
+}
+
+.field * {
+  font-family: inherit;
+}
+
+.field .MuiInputBase-root select {
+  font-size: 1.4em;
+}
+
+.field .MuiInputBase-root input {
+  font-size: 1.4em;
+}
+
+.field .MuiSelect-select {
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.field__option {
+  font-size: 1.4em;
+}
+
+.field label {
+  font-size: 1.4em;
+}
+
+.field span {
+  background-color: white;  
+  font-size: 1.4em;  
+}
+
+.field__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.field__error {  
+  color: var(--color-hot);  
+  font-weight: 600;
+  margin-top: 0.3em;
+}

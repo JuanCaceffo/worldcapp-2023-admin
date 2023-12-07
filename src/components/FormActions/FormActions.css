@@ -1,0 +1,5 @@
+.form__actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

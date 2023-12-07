@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10rem;
+  font-size: 4.6em;  
+  color: var(--color-primary);
+  text-shadow: var(--box-shadow-md);      
+}
+
+.logo__img {
+  width: 1.4em;
+  margin-right: 0.4em;
+}
+
+.logo__img--shadow {
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-md);
+}
+
+.logo__text {
+  font-family: var(--typeface-primary);
+  cursor: default;
+  margin-bottom: 0.22em;
+}
+
+.logo__first-part {
+  font-weight: 800;
+}
+
+.logo__center-dot {
+  margin: 0 0.05em;
+  font-family: var(--typeface-secondary);
+  font-weight: 800;
+  color: var(--color-tertiary);
+}
+
+.logo__last-part {
+  font-weight: 400;
+}

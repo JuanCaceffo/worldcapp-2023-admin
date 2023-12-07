@@ -1,0 +1,32 @@
+.searchbar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.searchbar__input{
+  font-family: var(--typeface-primary);
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.searchbar__button{
+  background-color: var(--color-primary);
+  border-radius: 0;
+}
+
+.searchbar__button:hover {
+  background-color: var(--color-primary);
+}
+
+.searchbar__icon{
+  font-size: 2em;
+  color: white;
+}
+
+.searchbar__input input {
+  text-indent: 1em;
+}

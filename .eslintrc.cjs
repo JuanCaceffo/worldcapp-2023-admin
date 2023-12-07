@@ -12,13 +12,15 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
-    'semi': ['error', 'never'],
+    'no-explicit-any': 'off',
+    semi: ['error', 'never'],
+    indent: ['warn', 2],
     'prefer-const': [
       'warn',
       {
-        'destructuring': 'any',
-        'ignoreReadBeforeAssign': false
-      }
+        destructuring: 'any',
+        ignoreReadBeforeAssign: false,
+      },
     ],
     'getter-return': ['error'],
     'no-async-promise-executor': ['warn'],
@@ -29,12 +31,12 @@ module.exports = {
     'no-extra-boolean-cast': [
       'error',
       {
-        'enforceForLogicalOperands': true
-      }
+        enforceForLogicalOperands: true,
+      },
     ],
     'no-extra-parens': ['warn', 'all'],
     'no-func-assign': ['error'],
-    'no-import-assign': ['error'],
+    'no-import-assign': ['warn'],
     'no-inner-declarations': ['error', 'both'],
     'no-obj-calls': ['error'],
     'no-promise-executor-return': ['error'],
@@ -70,6 +72,7 @@ module.exports = {
     'react/display-name': ['off'],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': [0],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },

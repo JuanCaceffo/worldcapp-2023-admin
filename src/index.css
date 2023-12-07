@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700;800;900&family=Roboto:wght@300;400;500;600;700;900&display=swap');
+@import url(./styles/input.css);
+@import url(./styles/layout.css);
+@import url(./styles/button.css);
+@import url(./styles/text.css);
 
 :root {
+  --maxWidth: 450px;
   /* Colors */
-  --typeface-color:hsla(0, 0%, 100%, 1);
-  --color-primary:hsla(207, 100%, 25%, 1);
-  --color-secondary:hsla(207, 66%, 43%, 1);
-  --color-tertiary:hsla(197, 96%, 46%, 1);
+  --typeface-color: hsla(0, 0%, 100%, 1);
+  --color-primary: hsla(207, 100%, 25%, 1);
+  --color-secondary: hsla(207, 66%, 43%, 1);
+  --color-tertiary: hsla(197, 96%, 46%, 1);
+  --color-tertiary-lighter: hsla(197, 96%, 65%, 1);
   /* Poin of Interest Color */
   --color-highligthed: hsla(32, 100%, 50%, 1);
   --color-focus: hsla(32, 100%, 65%, 1);
@@ -22,9 +28,21 @@
   --text-color: hsla(207, 30%, 10%, 1);
   --text-color-medium: hsla(207, 25%, 35%, 1);
   /* Card Background Color */
-  --gradient-primary: linear-gradient(to right, var(--color-secondary) 20%, var(--color-primary) 80%);
-  --card-bg-gradient: linear-gradient(to bottom, var(--color-clear), rgba(0, 0, 0, 0.05));
-  --user-info-background: linear-gradient(to bottom, var(--color-clear-medium), var(--color-clear));
+  --gradient-primary: linear-gradient(
+    to right,
+    var(--color-secondary) 20%,
+    var(--color-primary) 80%
+  );
+  --card-bg-gradient: linear-gradient(
+    to bottom,
+    var(--color-clear),
+    rgba(0, 0, 0, 0.05)
+  );
+  --user-info-background: linear-gradient(
+    to bottom,
+    var(--color-clear-medium),
+    var(--color-clear)
+  );
   /* Fonts */
   --typeface-primary: 'Mulish', 'Open Sans', 'Verdana', 'sans-serif';
   --typeface-secondary: 'Roboto', 'Open Sans', 'Verdana', 'sans-serif';
@@ -33,10 +51,11 @@
   --border-radius-md: 1rem;
   --border-radius-xl: 1.5rem;
   /* Box Shadow */
-  --box-shadow-xs: 0.0rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
-  --box-shadow: 0.0rem 0.4rem 1rem -0.2rem rgba(0, 0, 0, 0.2);
+  --box-shadow-xs: 0rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+  --box-shadow: 0rem 0.4rem 1rem -0.2rem rgba(0, 0, 0, 0.2);
   --box-shadow-md: 0.25rem 0.25rem 1.2rem rgba(0, 0, 0, 0.3);
   --box-shadow-xl: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.3);
+  --box-shadow-line: 0rem 0.4rem 0.6rem -0.5rem rgba(0, 70, 128, 0.3);
   --box-shadow-hover: 0rem 2rem 2rem -1.5rem rgba(0, 0, 0, 0.3);
   /* Box Padding */
   --box-padding: 1.6rem;
@@ -51,20 +70,26 @@
 }
 
 html {
+  display: flex;
+  justify-content: center;  
   font-family: var(--typeface-primary);
   font-size: 10px;
-  color: var(--text-color);
+  color: var(--text-color);    
 }
 
-.fas-lp{
+body {
+  max-width: var(--maxWidth);  
+}
+
+.fa-lp {
   padding-left: 0.15em;
 }
 
-.fas-rp{
+.fa-rp {
   padding-right: 0.4em;
 }
 
-.fas--hot {
+.fa--hot {
   color: var(--color-hot);
 }
 
