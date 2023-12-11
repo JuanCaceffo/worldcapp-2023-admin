@@ -1,5 +1,5 @@
 import axios from "axios"
-import { REST_SERVER_URL } from "../constants"
+import { REST_SERVER_URL } from "src/domain/constants" 
 import { Team } from "src/domain/models/TeamModel/Team.model"
 import { HandleError } from "src/utils/HandleError/HandleError"
 
