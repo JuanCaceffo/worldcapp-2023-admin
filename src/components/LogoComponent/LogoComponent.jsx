@@ -4,7 +4,7 @@ import { Box } from '@mui/material'
 export const LogoComponent = () => {
   return (
     <Box className="logo">
-      <img className="logo__img logo__img--shadow" src="/public/images/logo-icon.png" alt="WorldCapp Logotipo" />
+      <img className="logo__img logo__img--shadow" src="/images/logo-icon.png" alt="WorldCapp Logotipo" />
       <section className="logo__text">
         <span className="logo__first-part">world</span>
         <span className="logo__center-dot">.</span>
