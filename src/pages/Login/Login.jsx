@@ -46,11 +46,18 @@ export const Login = () => {
         <InputLabel className="field__label" htmlFor="userName">
           Usuario
         </InputLabel>
-        <TextField className="field" fullWidth id="userName" name="userName" autoFocus required />
+        <TextField className="field" fullWidth id="userName" name="userName" autoFocus required value={'juanceto01'} />
         <InputLabel className="field__label" htmlFor="password">
           Contraseña
         </InputLabel>
-        <TextField className="field field--white" fullWidth id="password" name="password" type="password" />
+        <TextField
+          className="field field--white"
+          fullWidth
+          id="password"
+          name="password"
+          type="password"
+          value={'12345'}
+        />
         <Button className="button button--primary button--login" type="submit" fullWidth variant="contained">
           Ingresar
         </Button>
